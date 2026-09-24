@@ -1,0 +1,12 @@
+# dataset (download from Kaggle)
+intel_image_classification/
+*.jpg
+*.png
+!confusion_matrix*.png
+
+# caches and environments
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.npy
+*.pkl
